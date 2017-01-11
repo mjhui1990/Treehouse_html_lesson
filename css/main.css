@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 img {
-    max-width: 100%
+    max-width: 100%;
   }
 
 h3 {
@@ -61,7 +61,7 @@ NAVigation
 *********************************/
 
 nav {
-   text-align: center;
+  text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
 }
@@ -212,4 +212,23 @@ nav a, nav a:visited {
 
 nav a.selected, nav a:hover {
   color: #32673f;
+}
+
+#overlay {
+  background:rgba(0, 0, 0, 0.70);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin-top: 10%; 
+}
+
+#overlay p {
+  color: white;
 }
